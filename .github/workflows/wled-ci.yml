@@ -1,6 +1,7 @@
 name: WLED CI
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - '*'
